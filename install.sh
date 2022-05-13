@@ -59,6 +59,9 @@ go install github.com/qjfoidnh/BaiduPCS-Go@latest #配置百度云自动上传
 echo 'export PATH=$PATH:'`echo ~`'/go/bin'>>~/.bashrc #修改默认环境变量，如不希望可以注释掉
 source ~/.bashrc
 
+# 自用。
+apt install -y ffmpeg python3-pip screen vnstat
+
 #提示登陆
 echo '请手动运行`source ~/.bashrc`或者重新链接ssh更新环境变量使下列命令生效'
 echo '使用`rclone config`登陆rclone'
