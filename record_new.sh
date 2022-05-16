@@ -295,6 +295,9 @@ function startrecord(){
 			(java -Dfile.encoding=utf-8 -jar BilibiliLiveRecorder/BiliLiveRecorder.jar "debug=true&check=false&liver=bili&id=${PART_URL}&qn=-1&saveFolder=${DIR}&fileName=${DLNAME}" > "${DIR}/${FNAME}.log" 2>&1) &
 		fi
 	fi
+	if [[ $TYPE == "bilibilil" ]]; then
+		(you-live bili "${PART_URL}" -debug -qn 10000 -sp "${DIR}/${DLNAME}" -format "{shortId}-{name}-{startTime}" > "${DIR}/${FNAME}.log" 2>&1) &
+	fi
 	if [[ $TYPE == "youtubeffmpeg" || $TYPE == "twitcastffmpeg" || $TYPE == "twitch" || $TYPE == "openrec" || $TYPE == "mirrativ" || $TYPE == "reality" || $TYPE == "chaturbate" || $TYPE == "streamlink" ]]; then
 		(ffmpeg -user_agent "Mozilla/5.0" -i "$STREAM_URL" -codec copy -f mpegts "${DIR}/${FNAME}" > "${DIR}/${FNAME}.log" 2>&1) &
 	fi
@@ -335,7 +338,7 @@ function up(){
 		rm -f "${DIR}/${FNAME}" ; rm -f "${DIR}/${FNAME}.log"
 	elif [[ -n ${!UPLOAD_TYPE_LIST[*]} ]]; then #存在上传列表才上传
 		upload "${DIR}/${FNAME}"
-		upload "${DIR}/${FNAME}.log"
+		rm "${DIR}/${FNAME}.log"
 	fi
 }
 

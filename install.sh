@@ -13,6 +13,7 @@ python3 -m pip install --user --upgrade pip
 pip3 install --user --upgrade git+https://github.com/streamlink/streamlink.git
 pip3 install --user --upgrade git+https://github.com/ytdl-org/youtube-dl.git
 pip3 install --user --upgrade git+https://github.com/soimort/you-get.git
+pip3 install --upgrade you-live
 echo 'export PATH=$PATH:/usr/local/bin'>>~/.bashrc #修改默认环境变量，如不希望可以注释掉
 echo 'export PATH=$HOME/.local/bin:$PATH'>>~/.bashrc #因为加了 --user 参数，所以要再加上一个环境变量使得pip安装的包可以正常运行
 export PATH=$PATH:/usr/local/bin
