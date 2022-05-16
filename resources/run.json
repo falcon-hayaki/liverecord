@@ -1,0 +1,12 @@
+[
+    {
+        "type": "bilibilil",
+        "roomid": "21338446",
+        "name": "uu",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    }
+]

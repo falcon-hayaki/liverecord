@@ -7,7 +7,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -18,7 +19,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -29,7 +31,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -40,7 +43,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -51,7 +55,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -62,7 +67,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -73,7 +79,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -84,7 +91,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -95,7 +103,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -106,7 +115,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -117,7 +127,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -128,7 +139,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -139,7 +151,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -150,7 +163,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -161,7 +175,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -172,7 +187,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -183,7 +199,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -194,7 +211,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -205,7 +223,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -216,7 +235,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -227,7 +247,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -238,7 +259,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     },
     {
@@ -249,7 +271,8 @@
             "baidupcs:898477075:archives/"
         ],
         "args": [
-            "-dt \"del\""
+            "-dt \"del\"",
+            "-p 3600"
         ]
     }
 ]
