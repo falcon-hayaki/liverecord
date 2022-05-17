@@ -65,7 +65,7 @@ class LiveRecorder():
         exit()
 
     def run(self):
-        for i in range(self.n):
+        for i in range(self._n):
             self._processes.append(self.run_bash(i))
         
         self.bash_monitor()
