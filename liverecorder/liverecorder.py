@@ -23,6 +23,7 @@ class LiveRecorder():
     
     def run_bash(self, process_id):
         bash_line = self.get_record_bash(self.record_list[process_id])
+        self.logger.debug(bash_line)
         fout = open(self.get_log_name(self.record_list[process_id]), 'a')
         p = subprocess.Popen(bash_line, stdout=fout, shell=True)
         return p
