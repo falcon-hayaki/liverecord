@@ -14,4 +14,4 @@ def arg_parser():
 if __name__ == '__main__':
     arg_parser()
     mm = LiveRecorder(args.record_list)
-    # mm.run()
+    mm.run()
