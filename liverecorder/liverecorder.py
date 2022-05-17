@@ -43,6 +43,7 @@ class LiveRecorder():
                             if line_idx == 0 and self.is_stuck(time_str):
                                 self.restart_process(i)
                             self._live_status[i] = int(status)
+                            break
                     
             self.logger.info('monitor process. online: {}'.format(', '.join([self.record_list[i]['name'] for i, status in enumerate(self._live_status) if status == 1])))
             time.sleep(300)
