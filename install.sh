@@ -47,9 +47,9 @@ rm BilibiliLiveRecord.v2.15.0.zip
 #下载录制脚本并赋予权限
 cd ${cur_dir}
 mkdir record
-curl https://raw.githubusercontent.com/lovezzzxxx/liverecord/master/record.sh > record/record.sh ; chmod +x record/record.sh
-curl https://raw.githubusercontent.com/lovezzzxxx/liverecord/master/record_new.sh > record/record_new.sh ; chmod +x record/record_new.sh
-curl https://raw.githubusercontent.com/lovezzzxxx/liverecord/master/record_twitcast.py > record/record_twitcast.py; chmod +x record/record_twitcast.py
+chmod +x record.sh
+chmod +x record_new.sh
+chmod +x record_twitcast.py
 
 #配置自动上传
 cd ${cur_dir}

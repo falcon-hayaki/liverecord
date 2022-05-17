@@ -1,8 +1,8 @@
 [
     {
-        "type": "bilibilir",
-        "roomid": "21338446",
-        "name": "uu",
+        "type": "bilibiliy",
+        "roomid": "591194",
+        "name": "lv",
         "upload": [
             "rclone:od:archives/"
         ],

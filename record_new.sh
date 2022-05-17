@@ -338,7 +338,7 @@ function up(){
 		rm -f "${DIR}/${FNAME}" ; rm -f "${DIR}/${FNAME}.log"
 	elif [[ -n ${!UPLOAD_TYPE_LIST[*]} ]]; then #存在上传列表才上传
 		upload "${DIR}/${FNAME}"
-		rm "${DIR}/${FNAME}.log"
+		rm -f "${DIR}/${FNAME}.log"
 	fi
 }
 
