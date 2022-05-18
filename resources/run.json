@@ -1,10 +1,260 @@
 [
     {
         "type": "bilibiliy",
-        "roomid": "591194",
-        "name": "lv",
+        "roomid": "664481",
+        "name": "akari",
         "upload": [
             "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "22377405",
+        "name": "meru",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "twitcast",
+        "roomid": "hiina_ntn",
+        "name": "hiina",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "12235923",
+        "name": "mea",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "twitcast",
+        "roomid": "kaguramea_VoV",
+        "name": "mea_tc",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "505843",
+        "name": "miyayoki",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "833688",
+        "name": "astralisup",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "22499693",
+        "name": "chacha",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "22840256",
+        "name": "syphia",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "twitcast",
+        "roomid": "kotoha_ktnh",
+        "name": "kotoha",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "759938",
+        "name": "erica",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "twitch",
+        "roomid": "kanomahoro",
+        "name": "kanomahoro",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "5265",
+        "name": "liyuu",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "404603",
+        "name": "momozawa",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "180305",
+        "name": "legato",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "23899495",
+        "name": "pengpeng",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "2927869",
+        "name": "4nya",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "22375229",
+        "name": "yueko",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "15152878",
+        "name": "kano",
+        "upload": [
+            "rclone:od:hanayori/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "21547904",
+        "name": "hitona",
+        "upload": [
+            "rclone:od:hanayori/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "21547895",
+        "name": "hareru",
+        "upload": [
+            "rclone:od:hanayori/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "youtubeffmpeg",
+        "roomid": "UCV2m2UifDGr3ebjSnDv5rUA",
+        "name": "kohi-youtube",
+        "upload": [
+            "rclone:od:hanayori/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "youtubeffmpeg",
+        "roomid": "UCyIcOCH-VWaRKH9IkR8hz7Q",
+        "name": "hareru-youtube",
+        "upload": [
+            "rclone:od:hanayori/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "youtubeffmpeg",
+        "roomid": "UCfuz6xYbYFGsWWBi3SpJI1w",
+        "name": "mahoro-youtube",
+        "upload": [
+            "rclone:od:hanayori/"
+        ],
+        "args": [
+        ]
+    },
+    {
+        "type": "youtubeffmpeg",
+        "roomid": "UCShXNLMXCfstmWKH_q86B8w",
+        "name": "kano-youtube",
+        "upload": [
+            "rclone:od:hanayori/"
         ],
         "args": [
         ]
