@@ -274,5 +274,53 @@
             "-dt \"del\"",
             "-p 3600"
         ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "24384038",
+        "name": "gracia",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "22835709",
+        "name": "yoshino",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "24451378",
+        "name": "pan",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "21701247",
+        "name": "human",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
     }
 ]
