@@ -49,8 +49,11 @@ class LiveRecorder():
             time.sleep(300)
     
     def is_stuck(self, time_str):
-        if datetime.now() - datetime.strptime(time_str, '%Y-%m-%d %H:%M:%S') > timedelta(minutes=5):
-            return True
+        try:
+            if datetime.now() - datetime.strptime(time_str, '%Y-%m-%d %H:%M:%S') > timedelta(minutes=5):
+                return True
+        except:
+            pass
         return False
                 
     def restart_process(self, process_id):
