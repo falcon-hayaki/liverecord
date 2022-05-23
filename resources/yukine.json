@@ -322,5 +322,17 @@
             "-dt \"del\"",
             "-p 3600"
         ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "6485126",
+        "name": "milo",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
     }
 ]
