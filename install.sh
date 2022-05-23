@@ -47,9 +47,7 @@ rm BilibiliLiveRecord.v2.15.0.zip
 #下载录制脚本并赋予权限
 cd ${cur_dir}
 mkdir record
-chmod +x record.sh
-chmod +x record_new.sh
-chmod +x record_twitcast.py
+chmod +x record.sh record_new.sh record_twitcast.py start.sh stop.sh log.sh
 
 #配置自动上传
 cd ${cur_dir}
