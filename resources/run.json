@@ -258,5 +258,16 @@
         ],
         "args": [
         ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "23301030",
+        "name": "cuncun",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
     }
 ]
