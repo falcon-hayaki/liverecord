@@ -269,5 +269,15 @@
         "args": [
             "-p 10800"
         ]
+    },
+    {
+        "type": "twitch",
+        "roomid": "kotoha_ktnh_",
+        "name": "kotoha_ktnh_",
+        "upload": [
+            "rclone:od:archives/"
+        ],
+        "args": [
+        ]
     }
 ]
