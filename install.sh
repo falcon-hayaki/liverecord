@@ -1,6 +1,4 @@
 
-mkdir liverecord #新建liverecord的安装目录
-
 cur_dir="$(pwd)" #定义当前路径
 
 [[ -d livedl ]] || [[ -f livedl ]] && echo "请使用`sudo rm -rf livedl`指令删除livedl文件或文件夹后重试" && exit 1 #git clone需要空文件夹
@@ -46,7 +44,6 @@ rm BilibiliLiveRecord.v2.15.0.zip
 
 #下载录制脚本并赋予权限
 cd ${cur_dir}
-mkdir record
 chmod +x record.sh record_new.sh record_twitcast.py start.sh stop.sh log.sh
 
 #配置自动上传
@@ -58,7 +55,7 @@ go install github.com/qjfoidnh/BaiduPCS-Go@latest #配置百度云自动上传
 echo 'export PATH=$PATH:'`echo ~`'/go/bin'>>~/.bashrc #修改默认环境变量，如不希望可以注释掉
 source ~/.bashrc
 
-# 自用。
+# 自用
 apt install -y ffmpeg python3-pip screen vnstat
 apt-get upgrade -y
 
