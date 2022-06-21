@@ -59,6 +59,7 @@ class LiveRecorder():
     def restart_process(self, process_id):
         self._processes[process_id].kill()
         self._processes[process_id] = self.run_bash(process_id)
+        self.logger.error('recorder tread-{} restarted. Info:\n{}'.format(process_id, self.record_list[process_id]))
     
     def stop(self):
         for p in self._processes:
