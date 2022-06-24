@@ -306,5 +306,16 @@
         ],
         "args": [
         ]
+    },
+    {
+        "type": "youtubeffmpeg",
+        "roomid": "UCf-PcSHzYAtfcoiBr5C9DZA",
+        "name": "yuka",
+        "upload": [
+            "rclone:od:archives/",
+            "rclone:gd:archives_backup/"
+        ],
+        "args": [
+        ]
     }
 ]
