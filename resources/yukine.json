@@ -358,5 +358,65 @@
             "-dt \"del\"",
             "-p 3600"
         ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "22274820",
+        "name": "inaba",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "22501663",
+        "name": "electrober",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "90228",
+        "name": "tamakitsune",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "8453508",
+        "name": "lasse",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "25108099",
+        "name": "lulu",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
     }
 ]
