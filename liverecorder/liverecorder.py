@@ -40,8 +40,8 @@ class LiveRecorder():
                         res = re.match('\[(.+)\] metadata.*status ([01])', line)
                         if res:
                             time_str, status = res.groups()
-                            if line_idx == 0 and self.is_stuck(time_str):
-                                self.restart_process(i)
+                            # if line_idx == 0 and self.is_stuck(time_str):
+                            #     self.restart_process(i)
                             self._live_status[i] = int(status)
                             break
                     
@@ -58,6 +58,7 @@ class LiveRecorder():
                 
     def restart_process(self, process_id):
         self._processes[process_id].kill()
+        self._processes[process_id].terminate()
         self._processes[process_id] = self.run_bash(process_id)
         self.logger.error('recorder tread-{} restarted. Info:\n{}'.format(process_id, self.record_list[process_id]))
     
