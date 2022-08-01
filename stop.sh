@@ -1,6 +1,6 @@
 killall python --wait
 
-PID=$(ps -ef | grep ./record | grep -v grep | awk '{ print $2 }')
+PID=$(ps -ef | grep "bash record" | grep -v grep | awk '{ print $2 }')
 if [ -z "$PID" ]
 then
 echo Application is already stopped
