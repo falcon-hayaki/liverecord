@@ -33,8 +33,7 @@ if [ ! -d "livedl" ]; then
     echo "livedl 项目文件夹不存在，请确认该项目的github仓库 https://github.com/nnn-revo2012/livedl 是否被删除"
     exit 1
 else
-    cd livedl/src ; go build -o livedl livedl.go ; rm -r `ls | grep -v "^livedl$"`
-    chmod +x livedl ; cp livedl ${cur_dir}
+    cd livedl/src ; go build -o livedl livedl.go ; rm -r `ls | grep -v "^livedl$"` ; mv livedl ../
 fi
 
 #安装BilibiliLiveRecorder

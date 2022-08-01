@@ -24,7 +24,7 @@
         ]
     },
     {
-        "type": "twitcast",
+        "type": "twitcastpy",
         "roomid": "hiina_ntn",
         "name": "hiina",
         "upload": [
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "type": "twitcast",
+        "type": "twitcastpy",
         "roomid": "kaguramea_VoV",
         "name": "mea_tc",
         "upload": [
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "type": "twitcast",
+        "type": "twitcastpy",
         "roomid": "kotoha_ktnh",
         "name": "kotoha",
         "upload": [
