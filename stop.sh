@@ -8,3 +8,5 @@ else
 echo kill -9 $PID
 kill -9 $PID
 fi
+
+rm -r log/ videos/

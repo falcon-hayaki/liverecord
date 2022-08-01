@@ -34,6 +34,7 @@ if [ ! -d "livedl" ]; then
     exit 1
 else
     cd livedl/src ; go build -o livedl livedl.go ; rm -r `ls | grep -v "^livedl$"`
+    chmod +x livedl ; cp livedl ${cur_dir}
 fi
 
 #安装BilibiliLiveRecorder
