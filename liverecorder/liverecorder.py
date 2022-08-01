@@ -79,7 +79,7 @@ class LiveRecorder():
         
     @staticmethod
     def get_record_bash(record_config: dict):
-        return './record_new.sh {} "{}" -o "videos/{}"{}{}'.format(
+        return 'bash record_new.sh {} "{}" -o "videos/{}"{}{}'.format(
             record_config['type'],
             record_config['roomid'],
             record_config['name'],
