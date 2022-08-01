@@ -116,6 +116,18 @@
         ]
     },
     {
+        "type": "twitcastpy",
+        "roomid": "hanon_moco",
+        "name": "hanon",
+        "upload": [
+            "rclone:od:archives/",
+            "rclone:gd:archives_backup/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
         "type": "bilibiliy",
         "roomid": "759938",
         "name": "erica",
