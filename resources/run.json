@@ -329,5 +329,17 @@
         ],
         "args": [
         ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "11312",
+        "name": "icedmilktea",
+        "upload": [
+            "rclone:od:archives/",
+            "rclone:gd:archives_backup/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
     }
 ]
