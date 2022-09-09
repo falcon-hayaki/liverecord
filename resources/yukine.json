@@ -442,5 +442,29 @@
             "-dt \"del\"",
             "-p 3600"
         ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "25918424",
+        "name": "longbao",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "2065877",
+        "name": "mako",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
     }
 ]
