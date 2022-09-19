@@ -341,5 +341,17 @@
         "args": [
             "-p 10800"
         ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "21823053",
+        "name": "shiori",
+        "upload": [
+            "rclone:od:archives/",
+            "rclone:gd:archives_backup/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
     }
 ]
