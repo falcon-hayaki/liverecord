@@ -181,18 +181,6 @@
     },
     {
         "type": "bilibiliy",
-        "roomid": "24555346",
-        "name": "akaha",
-        "upload": [
-            "baidupcs:898477075:archives/"
-        ],
-        "args": [
-            "-dt \"del\"",
-            "-p 3600"
-        ]
-    },
-    {
-        "type": "bilibiliy",
         "roomid": "3328790",
         "name": "suigetsu",
         "upload": [
@@ -339,18 +327,6 @@
         "type": "bilibiliy",
         "roomid": "25162024",
         "name": "uiharushion",
-        "upload": [
-            "baidupcs:898477075:archives/"
-        ],
-        "args": [
-            "-dt \"del\"",
-            "-p 3600"
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "6100659",
-        "name": "romi",
         "upload": [
             "baidupcs:898477075:archives/"
         ],
