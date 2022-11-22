@@ -79,11 +79,14 @@ class LiveRecorder():
         
     @staticmethod
     def get_record_bash(record_config: dict):
+        now = datetime.now()
+        year = now.year
+        month = now.month
         return 'bash record_new.sh {} "{}" -o "videos/{}"{}{}'.format(
             record_config['type'],
             record_config['roomid'],
             record_config['name'],
-            ' {}'.format(' '.join(['-u {}{}'.format(u, record_config['name']) for u in record_config['upload']])),
+            ' {}'.format(' '.join(['-u {}{}{}'.format(u, '{}.{}/'.format(year, month), record_config['name']) for u in record_config['upload']])),
             ' {}'.format(' '.join([a for a in record_config['args']])),
         )
     
