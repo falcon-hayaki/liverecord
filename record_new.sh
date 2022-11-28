@@ -337,7 +337,7 @@ function up(){
 		print "${DIR}/${FNAME} file is too small remove file and log"
 		rm -f "${DIR}/${FNAME}" ; rm -f "${DIR}/${FNAME}.log"
 	elif [[ -n ${!UPLOAD_TYPE_LIST[*]} ]]; then #存在上传列表才上传
-		upload "${DIR}/${FNAME}"
+		upload "${DIR}/${FNAME}" &	# 后台上传
 		rm -f "${DIR}/${FNAME}.log"
 	fi
 }
