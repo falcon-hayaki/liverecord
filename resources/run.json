@@ -310,7 +310,7 @@
     },
     {
         "type": "twitch",
-        "roomid": "kotoha_ktnh_",
+        "roomid": "kotoha_hkll",
         "name": "kotoha_twitch",
         "upload": [
             "rclone:od:archives/",
