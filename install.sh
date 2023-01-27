@@ -58,6 +58,7 @@ source ~/.bashrc
 # 自用
 apt install -y ffmpeg python3-pip screen vnstat
 apt-get upgrade -y
+pip3 install -r requirements.txt
 
 #提示登陆
 echo '请手动运行`source ~/.bashrc`或者重新链接ssh更新环境变量使下列命令生效'

@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+from pytz import timezone
 import os
 import subprocess
 import time
@@ -45,7 +46,7 @@ class LiveRecorder():
                             self._live_status[i] = int(status)
                             break
                     
-            self.logger.info('monitor process. online: {}'.format(', '.join([self.record_list[i]['name'] for i, status in enumerate(self._live_status) if status == 1])))
+            self.logger.info('[{}] - monitor process. online: {}'.format(datetime.now(timezone('Asia/Shanghai')), ', '.join([self.record_list[i]['name'] for i, status in enumerate(self._live_status) if status == 1])))
             time.sleep(300)
     
     def is_stuck(self, time_str):
