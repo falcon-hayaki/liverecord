@@ -442,5 +442,17 @@
             "-dt \"del\"",
             "-p 3600"
         ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "3356113",
+        "name": "qinnai",
+        "upload": [
+            "baidupcs:898477075:archives/"
+        ],
+        "args": [
+            "-dt \"del\"",
+            "-p 3600"
+        ]
     }
 ]
