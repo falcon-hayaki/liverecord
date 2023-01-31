@@ -1,4 +1,4 @@
-killall python --wait
+ps aux | grep "python3 run.py" | grep -v grep | awk '{print $2}' | xargs -i kill -9 {}
 
 PID=$(ps -ef | grep "bash record" | grep -v grep | awk '{ print $2 }')
 if [ -z "$PID" ]

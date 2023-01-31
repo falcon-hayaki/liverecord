@@ -86,7 +86,7 @@ class LiveRecorder():
             record_config['type'],
             record_config['roomid'],
             record_config['name'],
-            ' {}'.format(' '.join(['-u {}{}{}'.format(u, '{}.{}/'.format(year, month), record_config['name']) for u in record_config['upload']])),
+            ' {}'.format(' '.join(['-u {}{}{}'.format(u, record_config['name'], '/{}.{}'.format(year, month)) for u in record_config['upload']])),
             ' {}'.format(' '.join([a for a in record_config['args']])),
         )
     
