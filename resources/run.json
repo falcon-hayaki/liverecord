@@ -1,45 +1,11 @@
 [
     {
-        "type": "bilibiliy",
-        "roomid": "664481",
-        "name": "akari",
-        "upload": [
-            "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "22377405",
-        "name": "meru",
-        "upload": [
-            "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
-        ]
-    },
-    {
         "type": "twitcastpy",
         "roomid": "hiina_ntn",
         "name": "hiina",
         "upload": [
             "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "12235923",
-        "name": "mea",
-        "upload": [
-            "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
@@ -51,6 +17,7 @@
         "name": "mea_tc",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
@@ -62,41 +29,20 @@
         "name": "miyayoki",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
         ]
     },
-    {
-        "type": "bilibiliy",
-        "roomid": "833688",
-        "name": "astralisup",
-        "upload": [
-            "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
-        ]
-    },
+    
     {
         "type": "bilibiliy",
         "roomid": "22499693",
         "name": "chacha",
         "upload": [
             "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "22840256",
-        "name": "syphia",
-        "upload": [
-            "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
@@ -109,6 +55,7 @@
         "name": "kotoha",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
@@ -121,18 +68,7 @@
         "name": "hanon",
         "upload": [
             "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "759938",
-        "name": "erica",
-        "upload": [
-            "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
@@ -145,6 +81,7 @@
         "name": "kanomahoro",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
@@ -156,6 +93,7 @@
         "name": "liyuu",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
@@ -167,21 +105,10 @@
         "name": "momozawa",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "180305",
-        "name": "legato",
-        "upload": [
-            "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
         ]
     },
     {
@@ -190,21 +117,10 @@
         "name": "pengpeng",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "2927869",
-        "name": "4nya",
-        "upload": [
-            "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
         ]
     },
     {
@@ -213,6 +129,7 @@
         "name": "yueko",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
@@ -225,6 +142,7 @@
         "name": "kano",
         "upload": [
             "rclone:od:hanayori/",
+            "rclone:ha:hanayori/",
             "rclone:gd:archives_backup/hanayori/"
         ],
         "args": [
@@ -236,6 +154,7 @@
         "name": "hitona",
         "upload": [
             "rclone:od:hanayori/",
+            "rclone:ha:hanayori/",
             "rclone:gd:archives_backup/hanayori/"
         ],
         "args": [
@@ -247,6 +166,7 @@
         "name": "hareru",
         "upload": [
             "rclone:od:hanayori/",
+            "rclone:ha:hanayori/",
             "rclone:gd:archives_backup/hanayori/"
         ],
         "args": [
@@ -258,6 +178,7 @@
         "name": "kohi-youtube",
         "upload": [
             "rclone:od:hanayori/",
+            "rclone:ha:hanayori/",
             "rclone:gd:archives_backup/hanayori/"
         ],
         "args": [
@@ -269,6 +190,7 @@
         "name": "hareru-youtube",
         "upload": [
             "rclone:od:hanayori/",
+            "rclone:ha:hanayori/",
             "rclone:gd:archives_backup/hanayori/"
         ],
         "args": [
@@ -280,6 +202,7 @@
         "name": "mahoro-youtube",
         "upload": [
             "rclone:od:hanayori/",
+            "rclone:ha:hanayori/",
             "rclone:gd:archives_backup/hanayori/"
         ],
         "args": [
@@ -291,21 +214,10 @@
         "name": "kano-youtube",
         "upload": [
             "rclone:od:hanayori/",
+            "rclone:ha:hanayori/",
             "rclone:gd:archives_backup/hanayori/"
         ],
         "args": [
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "23301030",
-        "name": "cuncun",
-        "upload": [
-            "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
         ]
     },
     {
@@ -314,32 +226,10 @@
         "name": "kotoha_twitch",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
-        ]
-    },
-    {
-        "type": "youtubeffmpeg",
-        "roomid": "UCf-PcSHzYAtfcoiBr5C9DZA",
-        "name": "yuka",
-        "upload": [
-            "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-        ]
-    },
-    {
-        "type": "bilibiliy",
-        "roomid": "11312",
-        "name": "icedmilktea",
-        "upload": [
-            "rclone:od:archives/",
-            "rclone:gd:archives_backup/"
-        ],
-        "args": [
-            "-p 10800"
         ]
     },
     {
@@ -348,6 +238,20 @@
         "name": "shiori",
         "upload": [
             "rclone:od:archives/",
+            "rclone:ha:archives/",
+            "rclone:gd:archives_backup/"
+        ],
+        "args": [
+            "-p 10800"
+        ]
+    },
+    {
+        "type": "bilibiliy",
+        "roomid": "4406892",
+        "name": "hayaki",
+        "upload": [
+            "rclone:od:archives/",
+            "rclone:ha:archives/",
             "rclone:gd:archives_backup/"
         ],
         "args": [
