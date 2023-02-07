@@ -257,5 +257,17 @@
         "args": [
             "-p 10800"
         ]
+    },
+    {
+        "type": "twitcastpy",
+        "roomid": "gume0612",
+        "name": "megu",
+        "upload": [
+            "rclone:od:archives/",
+            "rclone:ha:archives/",
+            "rclone:gd:archives_backup/"
+        ],
+        "args": [
+        ]
     }
 ]
