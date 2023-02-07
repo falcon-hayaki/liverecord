@@ -1,4 +1,3 @@
-
 cur_dir="$(pwd)" #定义当前路径
 
 [[ -d livedl ]] || [[ -f livedl ]] && echo "请使用`sudo rm -rf livedl`指令删除livedl文件或文件夹后重试" && exit 1 #git clone需要空文件夹
@@ -12,11 +11,6 @@ pip3 install --user --upgrade git+https://github.com/streamlink/streamlink.git
 pip3 install --user --upgrade git+https://github.com/ytdl-org/youtube-dl.git
 pip3 install --user --upgrade git+https://github.com/soimort/you-get.git
 pip3 install --upgrade you-live
-echo 'export PATH=$PATH:/usr/local/bin'>>~/.bashrc #修改默认环境变量，如不希望可以注释掉
-echo 'export PATH=$HOME/.local/bin:$PATH'>>~/.bashrc #因为加了 --user 参数，所以要再加上一个环境变量使得pip安装的包可以正常运行
-export PATH=$PATH:/usr/local/bin
-export PATH=$HOME/.local/bin:$PATH
-source ~/.bashrc
 
 #安装go语言环境
 sudo rm -rf $(go env GOROOT) #如果有已经安装的go环境，先卸载，新老版本会有冲突，如不希望可以注释掉
@@ -42,7 +36,7 @@ mkdir BilibiliLiveRecorder ; cd BilibiliLiveRecorder ;
 curl -OJL https://github.com/nICEnnnnnnnLee/BilibiliLiveRecorder/releases/download/V2.15.0/BilibiliLiveRecord.v2.15.0.zip ; unzip BilibiliLiveRecord.v2.15.0.zip
 rm BilibiliLiveRecord.v2.15.0.zip
 
-#下载录制脚本并赋予权限
+#赋予脚本权限
 cd ${cur_dir}
 chmod +x record.sh record_new.sh record_twitcast.py start.sh stop.sh log.sh
 
