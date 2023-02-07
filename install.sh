@@ -1,5 +1,7 @@
 cur_dir="$(pwd)" #定义当前路径
 
+rm -rf livedl BilibiliLiveRecorder
+
 [[ -d livedl ]] || [[ -f livedl ]] && echo "请使用`sudo rm -rf livedl`指令删除livedl文件或文件夹后重试" && exit 1 #git clone需要空文件夹
 
 sudo apt update #更新库
