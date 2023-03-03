@@ -41,17 +41,19 @@ class LiveRecorder():
                         res = re.match('\[(.+)\] metadata.*status ([01])', line)
                         if res:
                             time_str, status = res.groups()
-                            # if line_idx == 0 and self.is_stuck(time_str):
-                            #     self.restart_process(i)
+                            if line_idx == 0 and self.is_refresh(time_str):
+                                self.restart_process(i)
                             self._live_status[i] = int(status)
                             break
                     
             self.logger.info('[{}] - monitor process. online: {}'.format(datetime.now(timezone('Asia/Shanghai')), ', '.join([self.record_list[i]['name'] for i, status in enumerate(self._live_status) if status == 1])))
             time.sleep(300)
     
-    def is_stuck(self, time_str):
+    def is_refresh(self, time_str):
         try:
-            if datetime.now() - datetime.strptime(time_str, '%Y-%m-%d %H:%M:%S') > timedelta(minutes=5):
+            now = datetime.now()
+            last_check_time = datetime.strptime(time_str, '%Y-%m-%d %H:%M:%S')
+            if now.day != last_check_time.day or now - last_check_time > timedelta(minutes=10):
                 return True
         except:
             pass
