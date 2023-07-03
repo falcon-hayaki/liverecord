@@ -4,8 +4,7 @@
         "roomid": "hiina_ntn",
         "name": "hiina",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
@@ -15,8 +14,7 @@
         "roomid": "kaguramea_VoV",
         "name": "mea_tc",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
@@ -26,8 +24,7 @@
         "roomid": "505843",
         "name": "miyayoki",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
@@ -38,8 +35,7 @@
         "roomid": "22499693",
         "name": "chacha",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
             "-p 10800"
@@ -50,8 +46,7 @@
         "roomid": "kotoha_ktnh",
         "name": "kotoha",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
             "-p 10800"
@@ -62,8 +57,7 @@
         "roomid": "hanon_moco",
         "name": "hanon",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
             "-p 10800"
@@ -74,8 +68,7 @@
         "roomid": "kanomahoro",
         "name": "kanomahoro",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
@@ -85,8 +78,7 @@
         "roomid": "5265",
         "name": "liyuu",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
@@ -96,8 +88,7 @@
         "roomid": "404603",
         "name": "momozawa",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
@@ -107,8 +98,7 @@
         "roomid": "23899495",
         "name": "pengpeng",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
@@ -118,8 +108,7 @@
         "roomid": "22375229",
         "name": "yueko",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
             "-p 10800"
@@ -214,8 +203,7 @@
         "roomid": "kotoha_hkll",
         "name": "kotoha_twitch",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
@@ -225,8 +213,7 @@
         "roomid": "21823053",
         "name": "shiori",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
             "-p 10800"
@@ -237,8 +224,7 @@
         "roomid": "4406892",
         "name": "hayaki",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
             "-p 10800"
@@ -249,8 +235,7 @@
         "roomid": "gume0612",
         "name": "megu",
         "upload": [
-            "rclone:ha:archives/",
-            "rclone:gd:archives_backup/"
+            "rclone:ha:archives/"
         ],
         "args": [
         ]
